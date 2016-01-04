@@ -1,5 +1,7 @@
 package three.postprocessing;
 
+import composer.ShaderPass;
+
 @:native("THREE.EffectComposer") extern class EffectComposer {
 	function new(renderer:three.WebGLRenderer, ?renderTarget:three.WebGLRenderTarget):Void;
 	var renderTarget1 : three.WebGLRenderTarget;
