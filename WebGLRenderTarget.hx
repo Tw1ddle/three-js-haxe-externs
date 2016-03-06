@@ -2,6 +2,7 @@ package three;
 
 @:native("THREE.WebGLRenderTarget") extern class WebGLRenderTarget {
 	function new(width:Float, height:Float, ?options:WebGLRenderTargetOptions):Void;
+	var texture : Texture;
 	var uuid : String;
 	var width : Float;
 	var height : Float;
